@@ -19,6 +19,23 @@ export default {
 };
 </script>
 
+<script setup lang="ts">
+useHead({
+  title: "Claudio Rojas Alarcon",
+  meta: [{ name: "description", content: "Marca personal de Claudio Rojas Alarcon" }],
+});
+useSeoMeta({
+  title: "Claudio Rojas Alarcon",
+  description: "Marca personal de Claudio Rojas Alarcon",
+  ogTitle: "Claudio Rojas Alarcon",
+  ogDescription: "Esta es mi marca personal, dejame contarte de que va",
+  ogImage: "https://claudiorojasalarcon.com/claudio-pic.jpeg",
+  ogType: "website",
+  ogUrl: "https://claudiorojasalarcon.com",
+  twitterCard: "summary_large_image",
+});
+</script>
+
 <style>
 #app {
   font-family: Arial, sans-serif;
