@@ -26,7 +26,8 @@ useHead({
     { name: "description", content: "Marca personal de Claudio Rojas Alarcon" },
     { property: "og:title", content: "Claudio Rojas Alarcon" },
     { property: "og:description", content: "Esta es mi marca personal, dejame contarte de que va" },
-    { property: "og:image", content: "https://www.claudiorojasalarcon.com/claudio-pic.jpeg" },
+    { property: "og:image", content: "https://www.claudiorojasalarcon.com/claudio-pic.jpg" },
+    { property: "og:image:secure_url", content: "https://www.claudiorojasalarcon.com/claudio-pic.jpg" },
     { property: "og:image:type", content: "image/jpeg" },
     { property: "og:image:width", content: "300" },
     { property: "og:image:height", content: "300" },
@@ -34,6 +35,8 @@ useHead({
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://www.claudiorojasalarcon.com" },
     { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:image", content: "https://www.claudiorojasalarcon.com/claudio-pic.jpg" },
   ],
 });
 // useSeoMeta({
