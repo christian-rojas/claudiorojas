@@ -1,10 +1,14 @@
 <template>
   <main class="">
     <section class="container my-5">
-      <h2 class="text-center mb-4">Sobre mí</h2>
+      <h2
+        class="text-center mb-4 badge text-bg-primary rounded-pill d-block m-auto"
+        style="width: 6rem; font-size: large">
+        Sobre mí
+      </h2>
       <div class="row">
-        <div class="col-md-4">
-          <div class="card h-100">
+        <div class="col-md-4 mt-3 mb-3">
+          <div class="card shadow rounded h-100">
             <img
               src="./../../assets/claudio-pic.jpeg"
               width="100"
@@ -12,19 +16,19 @@
               class="card-img-top"
               alt="claudio-rojas-alarcon" />
             <div class="card-body">
-              <h5 class="card-title">Quien soy?</h5>
+              <h5 class="card-title text-danger-emphasis">¿Quien soy?</h5>
               <p class="card-text">
-                una persona apasionada por la moda, actual CEO y CO-Founder de mondano.cl, donde canalizo mi creatividad
+                Una persona apasionada por la moda, actual CEO y CO-Founder de mondano.cl, donde canalizo mi creatividad
                 y visión de diseño. Además, asesor de empresas en términos legales y financieros, aportando experiencia
                 y estrategia en sus operaciones.
               </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100">
+        <div class="col-md-4 mt-5 mb-3">
+          <div class="card shadow rounded h-100">
             <div class="card-body">
-              <h5 class="card-title">Mi misión</h5>
+              <h5 class="card-title text-danger-emphasis">Mi misión</h5>
               <p class="card-text">
                 Mi misión es liderar mondano.cl con creatividad e innovación, ofreciendo diseños únicos que inspiran y
                 empoderan a las personas. Paralelamente, brindo asesoría legal y financiera estratégica para impulsar el
@@ -40,10 +44,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card h-100">
+        <div class="col-md-4 mt-5 mb-3">
+          <div class="card shadow rounded h-100">
             <div class="card-body">
-              <h5 class="card-title">¿Que hago?</h5>
+              <h5 class="card-title text-danger-emphasis">¿Que hago?</h5>
               <p class="card-text">
                 Lidero mondano.cl como CEO, desarrollando y gestionando una marca de moda que refleja creatividad y
                 estilo. Además, asesoro empresas en temas legales y financieros, ayudándolas a optimizar sus operaciones
@@ -59,12 +63,17 @@
           </div>
         </div>
       </div>
-      <div class="row mt-5 mb-5">
+      <div class="row mt-5 mb-5 p-5">
         <div class="container">
-          <h2 class="text-center mb-4">Mis proyectos</h2>
+          <!-- <h2 class="text-center mb-4">Mis proyectos</h2> -->
+          <h2 class="text-center mb-4 fw-bold project-title">
+            <span class="text-warning">🚀 Mis</span>
+            <span class="text-danger">Proyectos</span>
+            <span class="text-warning">✨</span>
+          </h2>
           <div class="row">
             <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card shadow rounded mb-3">
                 <div class="card-body">
                   <img
                     src="./../../assets/elabore-chile.jpg"
@@ -72,13 +81,13 @@
                     height="100"
                     class="card-img-top"
                     alt="claudio-rojas-alarcon" />
-                  <h5 class="card-title">Elabore</h5>
+                  <h5 class="card-title text-warning">Elabore</h5>
                   <p class="card-text">Fábrica téxtil en Chile dedicada a elaborar prendas de vestir de alta calidad</p>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card shadow rounded mb-3">
                 <div class="card-body">
                   <img
                     src="./../../assets/mondano-logo.png"
@@ -86,8 +95,8 @@
                     height="100"
                     class="card-img-top"
                     alt="claudio-rojas-alarcon" />
-                  <h5 class="card-title">Mondano</h5>
-                  <p class="card-text">Tienda online de venta de ropa exclusiva de fabricación nacional</p>
+                  <h5 class="card-title text-warning">Mondano</h5>
+                  <p class="card-text">Tienda online de ropa exclusiva - fabricación nacional</p>
                 </div>
               </div>
             </div>
@@ -150,8 +159,14 @@ export default {
 
 <style scoped>
 .card img {
-  height: 300px;
+  height: 30vh;
   object-fit: cover;
+}
+.project-title {
+  transition: transform 0.3s ease;
+}
+.project-title:hover {
+  transform: scale(1.05);
 }
 /* styles.css */
 

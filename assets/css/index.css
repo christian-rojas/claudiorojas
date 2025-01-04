@@ -174,3 +174,11 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .35) !important;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}

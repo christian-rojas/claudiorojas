@@ -29,7 +29,7 @@ useSeoMeta({
   description: "Marca personal de Claudio Rojas Alarcon",
   ogTitle: "Claudio Rojas Alarcon",
   ogDescription: "Esta es mi marca personal, dejame contarte de que va",
-  ogImage: "https://claudiorojasalarcon.com/claudio-pic.jpeg",
+  ogImage: "@/assets/claudio-pic.jpeg",
   ogType: "website",
   ogUrl: "https://claudiorojasalarcon.com",
   twitterCard: "summary_large_image",
