@@ -23,8 +23,8 @@ export default {
 useHead({
   title: "Claudio Rojas Alarcon",
   meta: [
-    { name: "description", content: "Marca personal de Claudio Rojas Alarcon" },
-    { property: "og:title", content: "Claudio Rojas Alarcon" },
+    { name: "description", content: "Marca personal de Claudio Rojas Alarcón" },
+    { property: "og:title", content: "Claudio Rojas Alarcón" },
     { property: "og:description", content: "Esta es mi marca personal, dejame contarte de que va" },
     { property: "og:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
     { property: "og:image:secure_url", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
@@ -36,7 +36,7 @@ useHead({
     { property: "og:url", content: "https://www.claudiorojasalarcon.cl" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
-    { name: "keywords", content: "Claudio Rojas Alarcon, marca personal, mondano, asesor, asesoria, moda" },
+    { name: "keywords", content: "Claudio Rojas Alarcón, marca personal, mondano, asesor, asesoria, moda" },
   ],
   link: [
     { rel: "canonical", href: "https://www.claudiorojasalarcon.cl" },

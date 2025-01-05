@@ -21,7 +21,7 @@
     <!-- Hero Section -->
     <div class="row py-5 align-items-center">
       <div class="col-md-6">
-        <h1 class="text-danger mb-2">Claudio Rojas Alarcon</h1>
+        <h1 class="text-danger mb-2">Claudio Rojas Alarcón</h1>
         <h2 class="fw-bold mb-4">
           Una persona apasionada por la moda, actual CEO y CO-Founder de mondano.cl, donde canalizo mi creatividad y
           visión de diseño. Además, asesor de empresas en términos legales y financieros, aportando experiencia y
@@ -45,7 +45,7 @@
               <h3 class="fw-bold mb-3">MONDANO</h3>
               <img src="./../../assets/mondano-logo.jpeg" alt="Mondano" class="img-fluid mb-3" />
               <p class="text-muted">Tienda online de ropa exclusiva - fabricación nacional</p>
-              <button class="btn btn-outline-danger">Visitar sitio</button>
+              <a href="https://mondano.cl" target="_blank" class="btn btn-outline-danger">Visitar sitio</a>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
               <h3 class="fw-bold mb-3">ELABORE</h3>
               <img src="./../../assets/elabore-chile.jpg" alt="Elabore" class="img-fluid mb-3" />
               <p class="text-muted">Fábrica téxtil en Chile dedicada a elaborar prendas de vestir de alta calidad.</p>
-              <button class="btn btn-outline-danger">Visitar sitio</button>
+              <!-- <button class="btn btn-outline-danger">Visitar sitio</button> -->
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
       </div>
     </div>
     <footer>
-      <p>&copy; 2025 Claudio Rojas Alarcon</p>
+      <p>&copy; 2025 Claudio Rojas Alarcón</p>
       <ul>
         <li><a href="https://es-la.facebook.com/klauRoj" target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/klaudioroj/" target="_blank">Instagram</a></li>
@@ -126,12 +126,6 @@
 </template>
 
 <script lang="ts">
-// const values = ref([
-//   "Integridad y transparencia en cada proyecto que emprendo",
-//   "Innovación constante en el desarrollo de soluciones",
-//   "Compromiso con la calidad y satisfacción del cliente",
-//   "Responsabilidad social y desarrollo sostenible",
-// ]);
 export default {
   name: "HomeComponent",
   template: "HomeComponent",
