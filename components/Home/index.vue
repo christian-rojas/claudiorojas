@@ -21,7 +21,7 @@
     <!-- Hero Section -->
     <div class="row py-5 align-items-center">
       <div class="col-md-6">
-        <p class="text-danger mb-2">Sobre mí</p>
+        <h1 class="text-danger mb-2">Claudio Rojas Alarcon</h1>
         <h2 class="fw-bold mb-4">
           Una persona apasionada por la moda, actual CEO y CO-Founder de mondano.cl, donde canalizo mi creatividad y
           visión de diseño. Además, asesor de empresas en términos legales y financieros, aportando experiencia y
