@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <!-- <NavbarComponent /> -->
-    <HomeComponent />
-    <!-- <router-view /> -->
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 

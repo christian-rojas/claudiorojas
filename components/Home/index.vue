@@ -175,9 +175,11 @@
     <footer>
       <p>&copy; 2025 Claudio Rojas Alarcón</p>
       <ul>
-        <li><a href="https://es-la.facebook.com/klauRoj" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com/klaudioroj/" target="_blank">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/fabrica-texti-84ba33155/" target="_blank">Linkdin</a></li>
+        <li><a href="https://es-la.facebook.com/klauRoj" rel="noopener" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/klaudioroj/" rel="noopener" target="_blank">Instagram</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/fabrica-texti-84ba33155/" rel="noopener" target="_blank">Linkdin</a>
+        </li>
       </ul>
     </footer>
   </div>
