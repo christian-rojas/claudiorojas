@@ -42,6 +42,9 @@ useHead({
     { rel: "canonical", href: "https://www.claudiorojasalarcon.cl" },
     { rel: "icon", type: "image/x-icon", href: "https://www.claudiorojasalarcon.cl/favicon.ico" },
   ],
+  htmlAttrs: {
+    lang: "es",
+  },
 });
 // useSeoMeta({
 //   title: "Claudio Rojas Alarcon",

@@ -4,15 +4,17 @@
     <nav class="navbar navbar-expand-lg navbar-light py-3">
       <div class="container-fluid">
         <a class="navbar-brand fw-bold" href="#"> <span class="text-primary">CR</span> Claudio Rojas Alarcon </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Empresas</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Proyectos futuros</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            <ul class="navbar-nav">
+              <li class="nav-item"><NuxtLink class="nav-link" to="/">Inicio</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="/empresas">Empresas</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="/proyectos">Proyectos futuros</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="/contacto">Contacto</NuxtLink></li>
+            </ul>
           </ul>
         </div>
       </div>
@@ -45,6 +47,7 @@
               <h3 class="fw-bold mb-3">MONDANO</h3>
               <img src="./../../assets/mondano-logo.jpeg" alt="Mondano" class="img-fluid mb-3" />
               <p class="text-muted">Tienda online de ropa exclusiva - fabricación nacional</p>
+
               <a href="https://mondano.cl" target="_blank" class="btn btn-outline-danger">Visitar sitio</a>
             </div>
           </div>
