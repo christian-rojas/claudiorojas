@@ -21,10 +21,14 @@ export default {
 
 <script setup lang="ts">
 useHead({
-  title: "Claudio Rojas Alarcon",
+  title: "Claudio Rojas | CEO Mondano - Asesor Empresarial",
   meta: [
-    { name: "description", content: "Marca personal de Claudio Rojas Alarcón" },
-    { property: "og:title", content: "Claudio Rojas Alarcón" },
+    {
+      name: "description",
+      content:
+        "CEO y Co-Founder de Mondano.cl, asesor empresarial especializado en moda y estrategia de negocios en Chile.",
+    },
+    { property: "og:title", content: "Claudio Rojas | CEO Mondano - Asesor Empresarial" },
     { property: "og:description", content: "Esta es mi marca personal, dejame contarte de que va" },
     { property: "og:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
     { property: "og:image:secure_url", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
@@ -36,7 +40,7 @@ useHead({
     { property: "og:url", content: "https://www.claudiorojasalarcon.cl" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
-    { name: "keywords", content: "Claudio Rojas Alarcón, marca personal, mondano, asesor, asesoria, moda" },
+    { name: "keywords", content: "Claudio Rojas Alarcón, marca personal, mondano, moda" },
   ],
   link: [
     { rel: "canonical", href: "https://www.claudiorojasalarcon.cl" },
