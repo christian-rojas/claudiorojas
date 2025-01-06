@@ -117,6 +117,61 @@
         </div>
       </div>
     </div>
+
+    <section class="py-5">
+      <h2 class="fw-bold mb-4">Trayectoria Profesional</h2>
+      <p class="text-muted">
+        Con más de una década de experiencia en la industria textil y moda, he liderado proyectos innovadores que han
+        transformado el panorama de la moda en Chile. Como CEO de Mondano, hemos logrado crear una marca que no solo
+        representa estilo, sino también valores de sostenibilidad y producción local.
+      </p>
+      <p class="text-muted">
+        Mi experiencia en asesoría empresarial abarca desde startups hasta empresas establecidas, ayudándolas a
+        optimizar sus operaciones y alcanzar sus objetivos estratégicos. He trabajado con más de 50 empresas,
+        implementando soluciones efectivas en áreas legales y financieras.
+      </p>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="py-5">
+      <h2 class="fw-bold mb-4">Áreas de Especialización</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5 mb-3">Gestión Empresarial</h3>
+              <p>
+                Desarrollo de estrategias de negocio, optimización de procesos y gestión de equipos multidisciplinarios.
+                Experiencia en planificación estratégica y toma de decisiones ejecutivas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5 mb-3">Industria Textil</h3>
+              <p>
+                Conocimiento profundo de la cadena de suministro textil, procesos de producción y control de calidad.
+                Desarrollo de colecciones y gestión de marca en el mercado de la moda.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5 mb-3">Asesoría Legal y Financiera</h3>
+              <p>
+                Consultoría especializada en aspectos legales y financieros para empresas en crecimiento. Experiencia en
+                estructuración de negocios y optimización fiscal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <p>&copy; 2025 Claudio Rojas Alarcón</p>
       <ul>
