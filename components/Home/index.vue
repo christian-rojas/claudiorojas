@@ -11,9 +11,8 @@
           <ul class="navbar-nav">
             <ul class="navbar-nav">
               <li class="nav-item"><NuxtLink class="nav-link" to="/">Inicio</NuxtLink></li>
-              <li class="nav-item"><NuxtLink class="nav-link" to="/empresas">Empresas</NuxtLink></li>
-              <li class="nav-item"><NuxtLink class="nav-link" to="/proyectos">Proyectos futuros</NuxtLink></li>
-              <li class="nav-item"><NuxtLink class="nav-link" to="/contacto">Contacto</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="#empresas">Empresas</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="#proyectos">Proyectos futuros</NuxtLink></li>
             </ul>
           </ul>
         </div>
@@ -38,14 +37,17 @@
     </div>
 
     <!-- Companies Section -->
-    <div class="py-5">
+    <div class="py-5" id="empresas">
       <h2 class="fw-bold mb-4 text-center"><span class="text-danger">Empresas</span> lideradas</h2>
       <div class="row g-4">
         <div class="col-md-4 offset-md-2">
           <div class="card shadow rounded">
             <div class="card-body">
               <h3 class="fw-bold mb-3">MONDANO</h3>
-              <img src="./../../assets/mondano-logo.jpeg" alt="Mondano" class="img-fluid mb-3" />
+              <picture>
+                <source type="image/webp" srcset="./../../assets/mondano-logo.jpeg" />
+                <img src="./../../assets/mondano-logo.jpeg" alt="claudio-rojas-alarcon" class="img-fluid mb-3" />
+              </picture>
               <p class="text-muted">Tienda online de ropa exclusiva - fabricación nacional</p>
 
               <a href="https://mondano.cl" target="_blank" class="btn btn-outline-danger">Visitar sitio</a>
@@ -56,7 +58,11 @@
           <div class="card shadow rounded">
             <div class="card-body">
               <h3 class="fw-bold mb-3">ELABORE</h3>
-              <img src="./../../assets/elabore-chile.jpg" alt="Elabore" class="img-fluid mb-3" />
+              <picture>
+                <source type="image/webp" srcset="./../../assets/elabore-chile.jpg" />
+                <img src="./../../assets/elabore-chile.jpg" alt="claudio-rojas-alarcon" class="img-fluid mb-3" />
+              </picture>
+              <!-- <img src="./../../assets/elabore-chile.jpg" alt="Elabore" class="img-fluid mb-3" /> -->
               <p class="text-muted">Fábrica téxtil en Chile dedicada a elaborar prendas de vestir de alta calidad.</p>
               <!-- <button class="btn btn-outline-danger">Visitar sitio</button> -->
             </div>
@@ -111,14 +117,17 @@
               </p>
             </div>
             <div class="col-md-6">
-              <img src="./../../assets/mision-claudio.jpeg" alt="Future projects" class="img-fluid rounded" />
+              <picture>
+                <source type="image/webp" srcset="./../../assets/mision-claudio.jpeg" />
+                <img src="./../../assets/mision-claudio.jpeg" alt="claudio-rojas-alarcon" class="img-fluid mb-3" />
+              </picture>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="py-5">
+    <section class="py-5" id="proyectos">
       <h2 class="fw-bold mb-4">Trayectoria Profesional</h2>
       <p class="text-muted">
         Con más de una década de experiencia en la industria textil y moda, he liderado proyectos innovadores que han
