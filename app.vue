@@ -21,8 +21,12 @@ export default {
 
 <script setup lang="ts">
 useHead({
-  title: "Claudio Rojas | CEO Mondano - Asesor Empresarial",
+  title: "Claudio Rojas | CEO Mondano - Asesor",
   meta: [
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    },
     {
       name: "description",
       content:
@@ -45,21 +49,14 @@ useHead({
   link: [
     { rel: "canonical", href: "https://www.claudiorojasalarcon.cl" },
     { rel: "icon", type: "image/x-icon", href: "https://www.claudiorojasalarcon.cl/favicon.ico" },
+    // Apple Touch Icons
+    { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+    { rel: "apple-touch-icon", sizes: "152x152", href: "/apple-touch-icon-152x152.png" },
+    { rel: "apple-touch-icon", sizes: "120x120", href: "/apple-touch-icon-120x120.png" },
+    { rel: "apple-touch-icon", sizes: "76x76", href: "/apple-touch-icon-76x76.png" },
+    { rel: "manifest", href: "/manifest.json" },
   ],
-  htmlAttrs: {
-    lang: "es",
-  },
 });
-// useSeoMeta({
-//   title: "Claudio Rojas Alarcon",
-//   description: "Marca personal de Claudio Rojas Alarcon",
-//   ogTitle: "Claudio Rojas Alarcon",
-//   ogDescription: "Esta es mi marca personal, dejame contarte de que va",
-//   ogImage: "@/assets/claudio-pic.jpeg",
-//   ogType: "website",
-//   ogUrl: "https://claudiorojasalarcon.com",
-//   twitterCard: "summary_large_image",
-// });
 </script>
 
 <style>
