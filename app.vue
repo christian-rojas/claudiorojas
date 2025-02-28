@@ -21,11 +21,11 @@ export default {
 
 <script setup lang="ts">
 useHead({
-  title: "Claudio Rojas | CEO Mondano - Asesor",
+  title: "Claudio Rojas Alarcon | CEO Mondano - Asesor",
   meta: [
     {
       name: "viewport",
-      content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
     },
     {
       name: "description",
@@ -45,6 +45,14 @@ useHead({
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
     { name: "keywords", content: "Claudio Rojas Alarcón, marca personal, mondano, moda" },
+    {
+      name: "og:site_name",
+      content: "Claudio Rojas Alarcon",
+    },
+    {
+      name: "og:locale",
+      content: "es_CL",
+    },
   ],
   link: [
     { rel: "canonical", href: "https://www.claudiorojasalarcon.cl" },
