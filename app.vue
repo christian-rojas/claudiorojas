@@ -20,6 +20,8 @@ export default {
 </script>
 
 <script setup lang="ts">
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
 useHead({
   title: "Claudio Rojas Alarcon | CEO Mondano - Asesor",
   meta: [

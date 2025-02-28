@@ -13,6 +13,7 @@
               <li class="nav-item"><NuxtLink class="nav-link" to="/">Inicio</NuxtLink></li>
               <li class="nav-item"><NuxtLink class="nav-link" to="#empresas">Empresas</NuxtLink></li>
               <li class="nav-item"><NuxtLink class="nav-link" to="#proyectos">Proyectos futuros</NuxtLink></li>
+              <li class="nav-item"><NuxtLink class="nav-link" to="/blog/mondano">Mondano</NuxtLink></li>
             </ul>
           </ul>
         </div>
