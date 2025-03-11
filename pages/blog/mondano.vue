@@ -96,7 +96,7 @@
 
 <style scoped>
 .hero-section {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("@/assets/images/hero-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-size: cover;
   background-position: center;
   height: 100vh;
