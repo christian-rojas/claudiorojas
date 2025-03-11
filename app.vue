@@ -20,7 +20,7 @@ export default {
 </script>
 
 <script setup lang="ts">
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 useHead({
   title: "Claudio Rojas Alarcon | CEO Mondano - Asesor",
@@ -34,7 +34,7 @@ useHead({
       content:
         "CEO y Co-Founder de Mondano.cl, asesor empresarial especializado en moda y estrategia de negocios en Chile.",
     },
-    { property: "og:title", content: "Claudio Rojas | CEO Mondano - Asesor Empresarial" },
+    { property: "og:title", content: "Claudio Rojas Alarcon | CEO Mondano" },
     { property: "og:description", content: "Esta es mi marca personal, dejame contarte de que va" },
     { property: "og:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
     { property: "og:image:secure_url", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
@@ -46,7 +46,11 @@ useHead({
     { property: "og:url", content: "https://www.claudiorojasalarcon.cl" },
     { name: "twitter:card", content: "summary_large_image" },
     { name: "twitter:image", content: "https://www.claudiorojasalarcon.cl/claudio-pic.jpeg" },
-    { name: "keywords", content: "Claudio Rojas Alarcón, marca personal, mondano, moda" },
+    {
+      name: "keywords",
+      content:
+        "Claudio Rojas Alarcón, marca personal, mondano, moda, asesor empresarial, CEO Mondano, estrategia de negocios, consultor de moda Chile",
+    },
     {
       name: "og:site_name",
       content: "Claudio Rojas Alarcon",
@@ -54,6 +58,18 @@ useHead({
     {
       name: "og:locale",
       content: "es_CL",
+    },
+    {
+      name: "author",
+      content: "Claudio Rojas Alarcon",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "googlebot",
+      content: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
     },
   ],
   link: [
