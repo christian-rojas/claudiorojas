@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /private/
 Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.claudiorojasalarcon.cl/sitemap.xml
